@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/906/906334.png">
+    <!-- <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6FgInmGZVbH7mjwc_HBvCwIzqNufu2SNtdA&usqp=CAU"> -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <a class="navbar-brand" href="#">To-Do</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+          <span class="navbar-toggler-icon"></span>
+
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item">
+
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+
+            </li>
+            <li class="nav-item">
+
+              <a class="nav-link" href="#">About</a>
+
+            </li>
+          </ul>
+
+          <form class="form-inline my-2 my-lg-0">
+
+            <input class="form-control mr-sm-2" type="search" placeholder="Search Here" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit" data-toggle="tooltip" data-placement="top"  data-toggle="tooltip" data-placement="top"  title="Search">Search</button>
+
+          </form>
+
+        </div>
+
+      </nav> 
+
+      <div class="container">
+
+        <form>
+
+            <div class=" whole-form form-group">
+
+              <label for="title">To-Do Title</label>
+
+              <input type="text" class="form-control" id="title" aria-describedby="emailHelp" required>
+
+            </div>
+
+            <div class="form-group">
+
+              <label for="desc">To-Do Description</label>
+
+              <input type="text" class="form-control" id="desc" required>
+
+            </div>
+
+            <div class="form-group">
+
+                <label for="datec">To-Do Date</label>
+  
+                <input type="date" class="form-control" id="date" required>
+  
+              </div>
+
+            <div class="form-group">
+
+                <label for="timec">To-Do Time (Between - xx:xx - xx:xx)</label>
+  
+                <input type="time" class="form-control" id="time" required>
+  
+              </div>
+
+            <button id="addtolist" type="submit" class="btn btn-primary" data-toggle="tooltip" data-placement="top"  title="Add This To My List">Add This To My List</button>
+            <button id="doneBtn" class="btn btn-primary" data-toggle="tooltip" data-placement="top"  title="Done">Done</button>
+            <button id="notBtn" class="btn btn-danger" data-toggle="tooltip" data-placement="top"  title="Not Done">Not Done</button>
+            <button id="deleteBtn" class="btn btn-danger" data-toggle="tooltip" data-placement="top"  title="Delete/Remove This Task">Delete/Remove This Task</button>
+
+          </form>
+
+          <br>
+          <br>
+          <br>
+
+          <div id="todo">
+
+          </div>
+
+      </div>
+      
+    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+
+.navbar .navbar-brand{
+    margin-left: 35px;
+}
+
+.nav-item{
+    margin-left: 16px;
+}
+
+.form-inline .form-control{
+    padding: 5px 32px 7px 15px;
+}
+
+.form-inline .btn-outline-success{
+    margin-left: 8px;
+    width: 90px;
+}
+
+.whole-form{
+    margin-top: 6%;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+#doneBtn{
+    margin-left: 14px;
+}
+
+#notBtn{
+    margin-left: 548px;
+}
+
+#deleteBtn{
+    margin-left: 14px;
+}
